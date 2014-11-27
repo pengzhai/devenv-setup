@@ -1,0 +1,44 @@
+### look & feel ###
+export CLICOLOR='true'
+export LSCOLORS="gxfxcxdxbxegedabagacad"
+
+# set editor variable for general editing
+export EDITOR=vim
+
+### Open Source Dev ###
+
+PATH=/Users/peng/devenv/tools/leiningen/:$PATH
+export PATH
+
+#export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+
+export GRADLE_HOME=/Users/peng/devenv/tools/gradle-2.2.1
+export PATH=$GRADLE_HOME/bin:$PATH
+
+export SCALA_HOME=/Users/peng/devenv/tools/scala-2.11.4
+export PATH=$SCALA_HOME/bin:$PATH
+
+export ANT_HOME="/Users/peng/devenv/tools/apache-ant-1.9.4"
+export PATH=$ANT_HOME/bin:$PATH
+
+# Alias
+alias ls='ls -lart'
+alias vi='vim'
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+
+alias flush-dns='sudo killall -HUP mDNSResponder; dscacheutil -flushcache'
+
+alias gradled='gradle --daemon '
+
+### history handling ###
+#
+# Erase duplicates
+export HISTCONTROL=erasedups
+# resize history size
+export HISTSIZE=5000
+# append to bash_history if Terminal.app quits
+shopt -s histappend
+
+export PATH="/usr/local/bin:$PATH"
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
