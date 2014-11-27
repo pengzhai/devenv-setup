@@ -1,0 +1,6 @@
+build
+velocity.log
+.DS_Store
+.idea
+out
+.gradle

@@ -1,0 +1,8 @@
+[color]
+	ui = auto
+[core]
+	pager = less -FMRiX
+	excludesfile = /User/peng/.gitignore_user
+[push]
+	default = simple
+
