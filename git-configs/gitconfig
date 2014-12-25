@@ -2,7 +2,7 @@
 	ui = auto
 [core]
 	pager = less -FMRiX
-	excludesfile = /Users/peng/.gitignore_user
+	excludesfile = /Users/peng/.gitignore_global
 [push]
 	default = simple
 
