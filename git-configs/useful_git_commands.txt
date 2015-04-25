@@ -1,0 +1,4 @@
+useful_git_commands.txt
+
+=== Set up LOCAL clear username/password for github repo ===
+git remote set-url origin https://username:password@github.org/repo.git
